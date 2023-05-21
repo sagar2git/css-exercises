@@ -4,6 +4,7 @@ body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
+  display: flexbox;
   font-family: Roboto, sans-serif;
 }
 
@@ -11,6 +12,43 @@ img {
   width: 600px;
 }
 
+a {
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.content {
+  
+}
+
+ul li {
+  list-style-type: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.right-links {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
